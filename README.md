@@ -1,5 +1,5 @@
 # fastdbinnodejs
-<h1>Simple raw and fast database for node.js</h1>
+<h1>Node.js için Kolay ve aşırı basit kullanımlı ham veritabanı</h1>
 Nasıl kullanılır:
 kullanmak istediğimz modüle import ediyoruz
 <code>const dbman=require("../FastDBLite/fastdb.js")</code>

@@ -4,7 +4,7 @@ Nasıl kullanılır:
 kullanmak istediğimz modüle import ediyoruz
 <code>const dbman=require("../FastDBLite/fastdb.js")</code>
 Sonrasında;
-Veri eklemek için;
+<p>Veri eklemek için</p>;
 InsertData(Object) metodunu kullanıyoruz
 Database'in içindeki verilerden istediğimiz içeriği string olarak yazıp
 SearchInData(param) metodu ile arıyoruz. Eğer içerik mevcutsa o kaydın/kayıtların

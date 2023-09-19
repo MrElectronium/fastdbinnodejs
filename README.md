@@ -16,13 +16,21 @@ UpdateData(chunknumber,Object)
 DeleteData(chunknumber) Not:Veri tamamen silinmiyor işaretlenir ve geri kurtarılabilir
 <p>Veriyi Kurtarmak için</p>
 RecoverData(chunknumber)
- 
-<h2>How to usage</h2>;
-import dbman once:
+For english:
+How to use:
+We import it into the module we want to use
 <code>const dbman=require("../FastDBLite/fastdb.js")</code>
-Data insert:InsertData(Object)\n
-Data search in database:SearchInData(String)\n
-returned chunknumber,data\n
-Data update:UpdateData(chunknumber,Object)\n
-Data delete:DeleteData(chunknumber) Note:Data not permanent deleted\n
-Data recover:RecoverData(chunknumber)\n
+After that;
+<p>To add data</p>
+We use the InsertData(Object) method
+<p>To search for data;</p>
+We write the content we want from the data in the database as a string and
+We search with the SearchInData(param) method. If content exists, that record(s)
+It returns the block number and data.
+<p>To Update Data</p>
+UpdateData(chunknumber,Object)
+<p>To Delete Data</p>
+DeleteData(chunknumber) Note: The data is marked as not completely deleted and can be recovered
+<p>To Recover Data</p>
+RecoverData(chunknumber)
+ 
